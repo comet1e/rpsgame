@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: turquoise;
+    border: 3px;
+    
+    
+}
+
+.containerBtn {
+    display: center;
+    align-items: center;
+    align-content: center;
+    border: red 10px;
+    background-color: #CCC;
+    text-align: center;
+    padding: 20px;
+
+    
+}
+
+.btn-selections {
+    border: 50px;
+    border-color: black;
+    margin: 20px;
+    outline: none;
+    cursor: pointer;
+    font-size: 10rem;
+    transition: 100ms;
+    align-items: center;
+    background-color: transparent;
+}
+
+.btn-selections:hover {
+    transform: scale(1.2);
+}
+

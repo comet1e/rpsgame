@@ -1,5 +1,10 @@
 let computerChoice =["rock","paper","scissors"];
 let computerChoose;
+const computerSelection = computerChoose; 
+let scoreP=0;
+let scoreC=0;
+
+
 const getComputerChoice = () =>  {
   
     let i=0;
@@ -8,13 +13,13 @@ const getComputerChoice = () =>  {
     
 };
 getComputerChoice();
-console.log("computer choose: "+ computerChoose);
-// console.log(`computer picked : ${computerChoice[i]}`);
-const computerSelection = computerChoose; 
+
+console.log(`computer picked : ${computerChoose}`);   // console.log("computer choose: "+ computerChoose);
+
+
 
 
 let playerSelection = 'rock';
-
 // const getPlayerchoice = () =>{
    
 //    for (let i=0; i <1; i++){
@@ -32,8 +37,7 @@ let playerSelection = 'rock';
 console.log("player chooses: " +playerSelection);
 
 
-    let scoreP=0;
-    let scoreC=0;
+ 
 function playRound (playerSelection, computerSelection) {
     
     if (playerSelection === computerSelection){
@@ -85,3 +89,20 @@ function start(){
 } ;
 
 start();
+
+const btn1 = document.createElement('button');
+const btn2 = document.createElement('button');
+const btn3 = document.createElement('button');
+
+btn1.addEventListener('click', () => {
+    playRound(playerSelection, computerSelection);
+})
+
+btn2.addEventListener('click', () => {
+    playRound(playerSelection, computerSelection);
+})
+
+btn3.addEventListener('click', () => {
+    playRound(playerSelection, computerSelection);
+})
+
