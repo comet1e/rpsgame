@@ -4,11 +4,22 @@ body {
 
 h1 {
     color: turquoise;
-    border: 3px;
+    border: 3px solid teal;
     
     
 }
 
+.results {
+    color: violet;
+    text-align: center;
+    font-size: large;
+    
+}
+
+.result-score {
+    size: 400px;
+    border: 10px dotted red;
+}
 .containerBtn {
     display: center;
     align-items: center;
