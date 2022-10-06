@@ -10,14 +10,20 @@
 
 <body>
 
-    <h1> WElcome to Comet's OooooSUUmmmm game !</h1>
+    <h1> Welcome to Comet's OooooSUUmmmm game !</h1>
     
     <div class="containerBtn">
-    <button class="btn-selections" id="rockbtn">🪨</button>
-    <button class="btn-selections" id="paperbtn">📄</button>
-    <button class="btn-selections" id="scissorsbtn">✂</button>
+    <button class="btn-selections" data-selection="rock">🪨</button>
+    <button class="btn-selections" data-selection="paper">📄</button>
+    <button class="btn-selections" data-selection="scissors">✂</button>
     </div>
 
+    <div class="results">   
+        <div class="result-score" id="computerScore"> computer: 0 </div>
+        <div class="result-score" id="playerScore"> player: 0 </div>
+        
+        <div class="result-score" id="winner">  </div>
+    </div>
     
     
     
